@@ -16,9 +16,10 @@ ITEM_DIR="$CONFIG_DIR/items"
 # If you are looking for other colors, see the color picker:
 # https://felixkratz.github.io/SketchyBar/config/tricks#color-picker
 
-sketchybar --bar height=37        \
+sketchybar -m --bar height=37        \
                  blur_radius=30   \
                  position=top     \
+                 y_offset=2       \
                  sticky=off       \
                  padding_left=10  \
                  padding_right=10 \
@@ -47,6 +48,7 @@ sketchybar --default icon.font="SF Pro:Semibold:15.0"  \
 ##### Adding Items #####
 
 # -- Left Side Items --
+source $ITEM_DIR/apple.sh
 source $ITEM_DIR/spaces.sh
 source $ITEM_DIR/front_app.sh
 
