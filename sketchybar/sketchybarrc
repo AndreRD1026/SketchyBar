@@ -8,6 +8,7 @@ source "$CONFIG_DIR/colors.sh" # Loads all defined colors
 
 PLUGIN_DIR="$CONFIG_DIR/plugins"
 ITEM_DIR="$CONFIG_DIR/items"
+POPUP_CLICK_SCRIPT="sketchybar -m --set \"\$NAME\" popup.drawing=toggle" # The script that toggles the popup windows
 
 ##### Bar Appearance #####
 # Configuring the general appearance of the bar, these are only some of the
@@ -42,7 +43,9 @@ sketchybar --default icon.font="SF Pro:Semibold:15.0"  \
                      label.padding_left=4                  \
                      label.padding_right=10                \
                      icon.padding_left=10                  \
-                     icon.padding_right=4
+                     icon.padding_right=4                  \
+                     popup.drawing=off                     \
+                     popup.background.color=$ITEM_BG_COLOR  \
 
 
 ##### Adding Items #####
