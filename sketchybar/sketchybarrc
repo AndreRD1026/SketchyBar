@@ -24,7 +24,9 @@ sketchybar -m --bar height=37        \
                  sticky=off       \
                  padding_left=10  \
                  padding_right=10 \
-                 color=$BAR_COLOR
+                 shadow.color=0x28000000 \
+                 shadow.angle=0 \
+                 color=0x651e1e2e
 
 ##### Changing Defaults #####
 # We now change some default values that are applied to all further items
@@ -63,6 +65,7 @@ source $ITEM_DIR/calendar.sh
 source $ITEM_DIR/volume.sh
 source $ITEM_DIR/battery.sh
 source $ITEM_DIR/cpu.sh
+#source $ITEM_DIR/tot.sh
 
 
 ##### Finalizing Setup #####
