@@ -50,6 +50,12 @@ cp Pacman-Dots.ttf ~/Library/Fonts/Pacman-Dots.ttf
 
 ## Credits
 
+## Wallpapers
+
+<p>The Wallpapers are from Hyprland, you can found here :)</p>
+
+[Wallpapers](https://drive.google.com/drive/folders/1pVsxkVhgYRBIPEB6ldA-OEDbT0Ev-9SY?usp=sharing)
+
 ## Sketchybar
 
 [Sketchybar](https://github.com/FelixKratz/SketchyBar)
